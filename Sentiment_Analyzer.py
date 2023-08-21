@@ -1,5 +1,5 @@
 import nltk.sentiment
-#nltk.download('vader_lexicon')
+nltk.download('vader_lexicon')
 analyzer = nltk.sentiment.SentimentIntensityAnalyzer()
 
 def get_sentiment(user_text):
